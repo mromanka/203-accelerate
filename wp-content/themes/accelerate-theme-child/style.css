@@ -10,16 +10,17 @@ Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibi
 Text Domain:  accelerate-theme-child
 */
 
+
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
 }
 
 #masthead {
-    background: none repeat scroll 0 0 #45ac9d;
+  background: none repeat scroll 0 0 #45ac9d;
 }
 
 .button {
-    background: #45ac9d;
+    background: none repeat scroll 0 0 #45ac9d;
 }
 
 .blog-post {
@@ -44,16 +45,4 @@ Text Domain:  accelerate-theme-child
 	font-weight: 700;
 	color: #45ac9d;
 	text-transform: uppercase;
-}
-
-/* Case Studies */
-
-aside.case-study-sidebar {
-  float: left;
-  width: 300px;
-}
-
-div.case-study-images {
-  float: left;
-  width: 600px;
 }
