@@ -14,7 +14,7 @@ get_header(); ?>
 
 			<?php while ( have_posts() ) : the_post();
 					$size = "full";
-					$services = get_field('services');
+					$details = get_field('details');
 					$client = get_field('client');
 					$link = get_field('site_link');
 					$image_1 = get_field('image_1');
@@ -24,7 +24,7 @@ get_header(); ?>
 				<article class="case-study">
 				    <aside class="case-study-sidebar">
 				         <h2><?php the_title(); ?></h2>
-				         <h4><span><?php echo $services; ?></span></h4>
+				         <h4><span><?php echo $details; ?></span></h4>
 				         <h4>Client: <?php echo $client; ?></h4>
 
 								 <?php the_content(); ?>

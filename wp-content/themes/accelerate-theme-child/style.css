@@ -29,7 +29,7 @@ Text Domain:  accelerate-theme-child
     margin: 6em auto;
 }
 .featured-work h4 {
-    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+  font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
 	text-align: center;
 	text-transform: uppercase;
 	margin-bottom: 2.25em;
@@ -145,12 +145,151 @@ div.case-study-images img {
   word-wrap: normal !important;
 }
 
+/* Contact us form */
+
+.contact .main-content {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+#nf-label-field-1, #nf-label-field-2,  #nf-label-field-3 {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+#nf-field-4 {
+  background: #45ac9d;
+  width: 30%;
+  float: right;
+}
+
+/* About Page */
+
+.about-page {
+  background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+  height: auto;
+  margin: 0 0 5em;
+  padding: 5em 0;
+}
+
+.about-page .main-content {
+    max-width: 50%;
+    margin: 0 auto;
+    }
+
+.about-page h3 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.services {
+  margin: 0 auto;
+  width: 63%;
+  height: auto;
+}
+
+.intro-services h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.intro-services p {
+  text-align: center;
+}
+
+.individual-services {
+  margin: 0 auto;
+  height: 300px;
+  clear: both;
+}
+
+.individual-services:nth-child(odd) div.individual-services-text {
+  float: right;
+}
+.individual-services:nth-child(odd) div.individual-services-image {
+  float: left;
+    padding-top: 40px;
+}
+.individual-services:nth-child(even) div.individual-services-text {
+  float: left;
+}
+.individual-services:nth-child(even) div.individual-services-image {
+  float: right;
+  padding-left: 165px;
+  padding-top: 40px;
+}
+
+.individual-services-text {
+  width: 60%;
+}
+
+.individual-services-image {
+  width: 40%;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contact-services {
+  border-top: 1px solid #bfbfbf;
+  padding-top: 1em;
+  margin-bottom: 2em;
+}
+
+aside {
+  float: left;
+  width: auto;
+}
+
+.contact-us {
+  padding-left: 10em;
+}
+
+.contact-us-button {
+  padding-top: 2.5em;
+  padding-left: 2em;
+}
+
+
+/* 404 page */
+.page-404 {
+  height: 300px;
+  margin: 0 auto;
+  width: 85%;
+}
+
+.text-404-1 {
+  width: 40%;
+  float: left;
+}
+
+.text-404-2 {
+  width: 60%;
+  padding-top: 40px;
+  float: left;
+}
+
+.text-404-1 h2 {
+  font-family: 'Eater', cursive;
+  color: #45ac9d;
+  font-weight: bold;
+  font-size: 28px;
+}
+
+.link-404 {
+  color: #45ac9d;
+  font-weight: bold;
+}
+
 /* Media Queries */
 @media (min-width: 768px) {
     .blog-post {
     	width: 50%;
     	float: left;
-        margin-bottom: 2em;
+      margin-bottom: 2em;
     }
     aside.case-study-sidebar {
         float: left;

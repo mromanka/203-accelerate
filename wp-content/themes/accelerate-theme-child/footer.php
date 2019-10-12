@@ -30,10 +30,13 @@
 						<li class="social-media-icon">
 							<span class="screen-reader-text">Facebook</span>
 						</li>
+						<li class="social-media-icon">
+							<span class="screen-reader-text">Linkedin</span>
+						</li>
 					</ul>
 
 				</nav>
-				
+
 			</div><!-- .site-info -->
 		</footer><!-- #colophon -->
 
